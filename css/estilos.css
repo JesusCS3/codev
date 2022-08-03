@@ -1,0 +1,63 @@
+p{
+    text-align: justify;
+    padding: 1.5rem;
+}
+.imagen{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.menu{
+    background-color: #e3f2fd00;
+}
+.logo {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    transition: all 1s ease; }
+.fondo{
+    background: url("../images/fondo/home-office.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.slogan{
+    background-color: #666565b0;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+.quienes-somos {
+    background: #333333;
+    color: #fff;
+    height: 100hv;
+    background-size: cover;}
+.texto{
+    text-align: center;
+    padding: 3rem;
+}
+.leer{
+    float: right;
+    margin: 1.5rem;
+}
+.descripcion{
+    height: 100hv;
+}
+@media (max-width:1360px){
+    .display-4{
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+}
+@media (max-width:576px){
+    .display-4{
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+}
